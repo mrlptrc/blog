@@ -46,7 +46,7 @@ export default function Header() {
         {isHome ? (
           <div>
             <div className="flex flex-col max-sm:items-center">
-              Luke Berry
+              Murilo Patrício
               <span className="text-zinc-500 dark:text-zinc-400">
                 Software Engineer
               </span>
@@ -61,7 +61,7 @@ export default function Header() {
               <ChevronLeft />
             </div>
             <div className="flex flex-col max-sm:items-center">
-              Luke Berry
+              Murilo Patrício
               <span className="text-zinc-500 dark:text-zinc-400">
                 Software Engineer
               </span>
@@ -85,14 +85,6 @@ export default function Header() {
             data-is-current-path={path === "/projects"}
           >
             /projects
-            <Triangle className="absolute left-1/2 mt-1 hidden size-2 fill-sky-500 text-zinc-800 group-data-[is-current-path=true]:block dark:fill-sky-600 dark:text-transparent" />
-          </Link>
-          <Link
-            className="group relative rounded px-2 py-px ring-1 ring-sky-500 ring-opacity-0 transition-all sm:hover:ring-opacity-100 dark:ring-sky-600 dark:ring-opacity-0"
-            href="/articles"
-            data-is-current-path={path.startsWith("/articles")}
-          >
-            /articles
             <Triangle className="absolute left-1/2 mt-1 hidden size-2 fill-sky-500 text-zinc-800 group-data-[is-current-path=true]:block dark:fill-sky-600 dark:text-transparent" />
           </Link>
           <Link

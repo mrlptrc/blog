@@ -12,29 +12,92 @@ interface Project {
 }
 
 const projects: Project[] = [
+  // {
+  //   name: "css2wind",
+  //   description:
+  //     "Learn TailwindCSS by playing a minigame: there are eight CSS properties that you must translate to the equivalent TailwindCSS utility. Bet you can't get 8/8.",
+  //   url: "https://css2wind.com",
+  //   imageUrl: "/projects/css2wind.png",
+  //   githubUrl: "https://github.com/LukeberryPi/css2wind",
+  //   technologies: (
+  //     <div className="flex items-center gap-x-3">
+  //       <span className="rounded-full bg-[#007ACC] px-2.5 py-0.5 text-sm text-zinc-100 dark:bg-inherit dark:text-zinc-300 dark:ring-1 dark:ring-zinc-500">
+  //         TypeScript
+  //       </span>
+  //       <span className="rounded-full bg-[#38BDF9] px-2.5 py-0.5 text-sm text-zinc-900 dark:bg-inherit dark:text-zinc-300 dark:ring-1 dark:ring-zinc-500">
+  //         TailwindCSS
+  //       </span>
+  //       <span className="rounded-full bg-black px-2.5 py-0.5 text-sm text-zinc-100 dark:bg-inherit dark:text-zinc-300 dark:ring-1 dark:ring-zinc-500">
+  //         Next.js
+  //       </span>
+  //     </div>
+  //   ),
+  // },
   {
-    name: "css2wind",
+    name: "phived",
     description:
-      "Learn TailwindCSS by playing a minigame: there are eight CSS properties that you must translate to the equivalent TailwindCSS utility. Bet you can't get 8/8.",
-    url: "https://css2wind.com",
-    imageUrl: "/projects/css2wind.png",
-    githubUrl: "https://github.com/LukeberryPi/css2wind",
+      "Stop procrastinating by dealing with five tasks at a time. If you want to add more tasks you need to resolve a previous one. Surprisingly effective.",
+    url: "https://phived.com",
+    imageUrl: "/projects/phived.png",
+    githubUrl: "https://github.com/LukeberryPi/phived",
     technologies: (
       <div className="flex items-center gap-x-3">
-        <span className="rounded-full bg-[#007ACC] px-2.5 py-0.5 text-sm text-zinc-100 dark:bg-inherit dark:text-zinc-300 dark:ring-1 dark:ring-zinc-500">
-          TypeScript
+        <span className="rounded-full bg-[#00D8FE] px-2.5 py-0.5 text-sm text-zinc-900 dark:bg-inherit dark:text-inherit dark:ring-1 dark:ring-zinc-500">
+          React
         </span>
-        <span className="rounded-full bg-[#38BDF9] px-2.5 py-0.5 text-sm text-zinc-900 dark:bg-inherit dark:text-zinc-300 dark:ring-1 dark:ring-zinc-500">
+        <span className="rounded-full bg-[#38BDF9] px-2.5 py-0.5 text-sm text-zinc-900 dark:bg-inherit dark:text-inherit dark:ring-1 dark:ring-zinc-500">
           TailwindCSS
         </span>
-        <span className="rounded-full bg-black px-2.5 py-0.5 text-sm text-zinc-100 dark:bg-inherit dark:text-zinc-300 dark:ring-1 dark:ring-zinc-500">
-          Next.js
+        <span className="rounded-full bg-gradient-to-r from-[#926AFE] to-[#49C7FF] px-2.5 py-0.5 text-sm text-zinc-100 dark:bg-none dark:ring-1 dark:ring-zinc-500">
+          Vite
         </span>
       </div>
     ),
   },
   {
-    name: "phived",
+    name: "tenesse",
+    description:
+      "Stop procrastinating by dealing with five tasks at a time. If you want to add more tasks you need to resolve a previous one. Surprisingly effective.",
+    url: "https://phived.com",
+    imageUrl: "/projects/phived.png",
+    githubUrl: "https://github.com/LukeberryPi/phived",
+    technologies: (
+      <div className="flex items-center gap-x-3">
+        <span className="rounded-full bg-[#00D8FE] px-2.5 py-0.5 text-sm text-zinc-900 dark:bg-inherit dark:text-inherit dark:ring-1 dark:ring-zinc-500">
+          React
+        </span>
+        <span className="rounded-full bg-[#38BDF9] px-2.5 py-0.5 text-sm text-zinc-900 dark:bg-inherit dark:text-inherit dark:ring-1 dark:ring-zinc-500">
+          TailwindCSS
+        </span>
+        <span className="rounded-full bg-gradient-to-r from-[#926AFE] to-[#49C7FF] px-2.5 py-0.5 text-sm text-zinc-100 dark:bg-none dark:ring-1 dark:ring-zinc-500">
+          Vite
+        </span>
+      </div>
+    ),
+  },
+  {
+    name: "saúde memora",
+    description:
+      "Document Management and OCR System designed to automate the capture, processing, and storage of medical documents using Optical Character Recognition. It scans items like prescriptions, exams, and medical records, extracts key data, and stores them securely for easy access and management.",
+    url: "https://phived.com",
+    imageUrl: "/projects/phived.png",
+    githubUrl: "https://github.com/LukeberryPi/phived",
+    technologies: (
+      <div className="flex items-center gap-x-3">
+        <span className="rounded-full bg-[#00D8FE] px-2.5 py-0.5 text-sm text-zinc-900 dark:bg-inherit dark:text-inherit dark:ring-1 dark:ring-zinc-500">
+          React
+        </span>
+        <span className="rounded-full bg-[#38BDF9] px-2.5 py-0.5 text-sm text-zinc-900 dark:bg-inherit dark:text-inherit dark:ring-1 dark:ring-zinc-500">
+          TailwindCSS
+        </span>
+        <span className="rounded-full bg-gradient-to-r from-[#926AFE] to-[#49C7FF] px-2.5 py-0.5 text-sm text-zinc-100 dark:bg-none dark:ring-1 dark:ring-zinc-500">
+          Vite
+        </span>
+      </div>
+    ),
+  },
+  {
+    name: "shoe api",
     description:
       "Stop procrastinating by dealing with five tasks at a time. If you want to add more tasks you need to resolve a previous one. Surprisingly effective.",
     url: "https://phived.com",

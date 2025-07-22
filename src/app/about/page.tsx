@@ -2,85 +2,43 @@ export default function AboutPage() {
   return (
     <>
       <h1 className="mb-16 mt-4 text-center max-sm:text-4xl text-5xl">About me</h1>
-      <article>
+      <article className="space-y-6">
         <p>
-          I was born in São Paulo and moved to{" "}
-          <a href="https://en.wikipedia.org/wiki/Florian%C3%B3polis">
-            Florianópolis
+          Hey! I’m Murilo 20 years old, born and raised in the southern outskirts of São Paulo.
+        </p>
+        <p>
+          Ever since I was a kid, I’ve been fascinated by tech. While others were just playing games, I was trying to figure out how they worked under the hood. That curiosity led me to discover programming through an old Minecraft mod.
+        </p>
+        <p>
+          Everything clicked when I built my first real project with friends. I realized how much I loved problem-solving, how fast I could learn, and how my communication helped the team move forward.
+        </p>
+        <p>
+          I chose to study Systems Analysis and Development a more direct path to what I love. Over time, I shaped my profile: curious, focused, and driven to turn ideas into real things.
+        </p>
+        <p>
+          My first job was at a consultancy and also my first ever job. There, I led a major refactor of a complex process, integrated automation for public IPTU data, and delivered everything with performance and precision under a tight deadline. It was a turning point.
+        </p>
+        <p>
+          These days, I work as a freelancer, contribute to open source, and build personal projects. I mostly code in JavaScript and Java, but I’m diving deeper into architecture, backend, security, performance and databases.
+        </p>
+        <p>
+          Want to talk tech, build something together, or just rant about bad UI? I’m all ears.
+        </p>
+        <p>
+          DM me on{" "}
+          <a href="https://www.linkedin.com/in/murilo-patricio/" target="_blank" className="underline">
+            LinkedIn
           </a>{" "}
-          as a 10 year old kid. I fell in love with the nature, sport and music
-          culture of the Magical Island.
-        </p>
-        <p>
-          In the next decade, I{" "}
-          <a href="https://open.spotify.com/artist/4ymHKBTThfeOL114lwCWPQ?si=c30897c35e404259">
-            became a singer-songwriter
-          </a>
-          , got a Karate blue belt, won back-to-back Carnavals with a samba
-          school and wasted thousands of hours playing League of Legends.
-        </p>
-        <p>
-          Then I studied Economics at{" "}
-          <a href="https://en.wikipedia.org/wiki/Federal_University_of_Santa_Catarina">
-            Federal University of Santa Catarina
-          </a>
-          , mostly for my love for History and Math. I learned a lot of
-          Politics, Statistics and Macroeconomics.
-        </p>
-        <p>
-          But I&apos;d spent too long studying models that weren&apos;t applicable in
-          real-life. I felt disconnected from my studies which
-          led to me dropping out after 2 years.
-        </p>
-        <p>
-          Then came my first contact with programming: as a Data Analyst at a
-          Tech startup. We used Microsoft Excel and Power BI to generate our
-          reports.
-        </p>
-        <p>
-          With millions of data entries, it wasn&apos;t long until my Dell
-          notebook became unusably slow. This led me to learn Python and Pandas
-          to better deal with datasets, as well as Selenium and pyautogui.
-        </p>
-        <p>
-          I&apos;ve always been obsessed with user interfaces. My friends
-          couldn&apos;t bear me pointing out broken buttons and ugly websites
-          all the time.
-        </p>
-        <p>
-          When I found out what HTML was, I did a deep dive into the Frontend. I
-          completed FreeCodeCamp&apos;s{" "}
-          <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/">
-            Responsive Web Design
-          </a>{" "}
-          and swiftly progressed to Javascript and React soon after.
-        </p>
-        <p>
-          I became more active within the Brazilian Dev community, sharing
-          quirky UI bugs and building my projects in public such as{" "}
-          <a href="https://phived.com">phived</a> and{" "}
-          <a href="https://css2wind.com">css2wind</a>. I collaborated with
-          hundreds of developers and contributed a lot to Open Source.
-        </p>
-        <p>
-          In 2024, I traveled to Torino, Italy to visit my dad. My life flipped
-          upside down and I ended up living in Málaga for a while. After I{" "}
-          <a href="/articles/how-not-to-get-a-job-in-spain">
-            failed to get a job
-          </a>
-          , I moved to the UK and landed a job in London, where I currently
-          live.
-        </p>
-        <p>
-          If you want to get in touch, send me a DM on{" "}
-          <a href="https://x.com/lukeberrypi">X</a> or an email{" "}
-          <a href="mailto:lukeberrypi@gmail.com">lukeberrypi@gmail.com</a>.
+          or shoot me an email at{" "}
+          <a href="mailto:murilopatricio@gmail.com" className="underline">
+            murilopatricio@gmail.com
+          </a>.
         </p>
         <p>Smile, you&apos;re alive :)</p>
         <p>
-          Best,
+          Cheers,
           <br />
-          Luke
+          Murilo
         </p>
       </article>
     </>
